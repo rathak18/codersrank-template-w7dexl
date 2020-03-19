@@ -1,0 +1,153 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	font-family: montserrat;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+label.logo{
+	color:black;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: inherit;
+}
+header ul{
+	float: right;
+}
+header ul li {
+	height:
+	width: 100%;
+	margin: 0 5px;
+	display: inline-block;
+	margin-right: 80px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	text-decoration-style: none;
+	border-bottom-style: none;
+	padding: 7px 13px;
+	border-radius: 20px;
+}
+
+header{
+	margin-top: 0 auto;
+	margin-bottom: 30px;
+	display: block;	
+	background-color: white;
+	height: 80px;
+	width: 100%;
+	margin: 0 5px;
+	padding: 0;
+}
+header ul li a{
+	color: black;
+	text-transform: uppercase;
+}
+a:hover{
+	background: #1b9bff;
+	transition: .5s
+}
+.content{
+	margin-left: 35%;
+}
+.Skills{
+	margin-left: 35%;
+	margin-right: 30%;
+	font-style: bold;
+
+}
+.Skills ol li{
+	display: list-item;
+	margin-left: 5px;
+	margin-right: 5PX;
+}
+
+
+
+#Follow{
+	margin-left: 35%;
+	margin-top: 35px;
+	font-size: 20px;
+}
+#Follow ul li {
+	text-decoration: none;
+   border-bottom-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 2px;
+}
+#Skills ol li{
+	font-size: 20px;
+
+}
+#project li{
+	display:list-item;
+}
+/*body{
+	background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}*/
+
+h1{
+	margin-top: 30px;
+	margin-left: 40px;
+	color:#800080
+	margin-bottom: 10px;
+}
+li{
+	border-bottom-style: none;
+}
+button{
+	font-size: 25px;
+	background-color: inherit;
+	border-radius: 15px;
+	margin-left: 35%;
+	font-size: 20px;
+
+}
+p{
+	margin-top: 20px;
+	margin-left: 5%;
+	font-size: 25px;
+	font-style: inherit;
+	color: #d3f0eb;
+}
+h3{
+	font-size:30px;
+  color:   #800080
+}
+li{
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: inherit;
+	color:#0d2c5e;
+}
+a{
+	border:none;
+	text-decoration: none;
+}
+#f{
+	font-family: inherit;
+	font-weight: inherit;
+}
